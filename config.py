@@ -1,0 +1,27 @@
+# 游戏配置
+
+# 窗口尺寸
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 600
+
+# 网格尺寸
+GRID_SIZE = 20
+GRID_WIDTH = SCREEN_WIDTH // GRID_SIZE
+GRID_HEIGHT = SCREEN_HEIGHT // GRID_SIZE
+
+# 颜色 (R, G, B)
+BACKGROUND = (15, 15, 30)
+GRID_COLOR = (30, 30, 50)
+SNAKE_HEAD = (0, 200, 255)
+SNAKE_BODY = (0, 150, 200)
+FOOD_COLOR = (255, 100, 100)
+TEXT_COLOR = (220, 220, 255)
+
+# 游戏速度
+FPS = 60
+INITIAL_SPEED = 10  # 初始速度（格子/秒）
+SPEED_INCREMENT = 0.5  # 每吃一个食物增加的速度
+
+# 字体
+FONT_NAME = None  # 使用默认字体
+FONT_SIZE = 24
