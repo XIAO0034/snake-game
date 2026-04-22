@@ -15,7 +15,7 @@ def draw_grid(surface):
     """绘制网格"""
     for x in range(0, config.SCREEN_WIDTH, config.GRID_SIZE):
         pygame.draw.line(surface, config.GRID_COLOR, (x, 0), (x, config.SCREEN_HEIGHT))
-    for y in range(0, config.SCREEN_HEIGHT, config.GID_SIZE):
+    for y in range(0, config.SCREEN_HEIGHT, config.GRID_SIZE):
         pygame.draw.line(surface, config.GRID_COLOR, (0, y), (config.SCREEN_WIDTH, y))
 
 
